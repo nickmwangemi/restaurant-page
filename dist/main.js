@@ -1,1 +1,1 @@
-console.log("We're Live!!!!")
+(()=>{const o=document.querySelector("#main");let d=o.offsetTop;window.addEventListener("scroll",(function(){window.scrollY>=d?(document.body.style.paddingTop=o.offsetHeight+"px",document.body.classList.add("fixed-nav")):(document.body.classList.remove("fixed-nav"),document.body.style.paddingTop=0)}))})();
