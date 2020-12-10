@@ -34,6 +34,7 @@ const pageLoad = () => {
 	menu.append(menuListItem4)
 
 	nav.append(menu)
+	content.append(nav)
 
 	let topOfNav = nav.offsetTop
 
@@ -48,7 +49,6 @@ const pageLoad = () => {
 	}
 
 	window.addEventListener('scroll', fixNav)
-	content.append(nav)
 
 	// site wrap
 	const siteWrapDiv = document.createElement('div')

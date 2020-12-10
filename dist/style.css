@@ -33,7 +33,7 @@ body.fixed-nav .site-wrap {
 
 header {
 	text-align: center;
-	height: 50vh;
+	height: 40vh;
 	background: url('./img/header-image.jpg') bottom center no-repeat;
 	background-size: cover;
 	display: flex;
